@@ -14,9 +14,16 @@ body{
 	display: block;
 }
 header{
-	background-color: #AE2525;
+	background-color: black;
 	font-size: 20px;
 	repeat:no no-repeat;
 	padding:1em 0;
+	margin: 0;
+}
+.masthead{
+	background-image:url("../images/logo.png")
+	background-size: 75px auto,75px auto,200px auto;
+	padding: 1em;
+	background-position: left top, right top, left top;
 	margin: 0;
 }
