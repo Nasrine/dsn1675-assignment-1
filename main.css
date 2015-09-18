@@ -4,12 +4,12 @@
 
 html{
 
-	font-family:normal 100%/'Josefin Sans', sans-serif;
+	font-family:normal 100%/'Antic', sans-serif;
 	background-size: 150px auto;
 	color:white;
 }
 body{
-	font-family:'Josefin Sans', sans-serif;
+	font-family:'Antic', sans-serif;
 	margin:0;
 	display: block;
 }
@@ -26,4 +26,56 @@ header{
 	padding: 1em;
 	background-position: left top, right top, left top;
 	margin: 0;
+}
+
+h1{
+	margin: 0;
+	color:#a69762;
+	font-family:'Antic';
+	font-weight: bold;
+	font-size: 42px;
+	text-align: center;
+	text-shadow: 4px 4px 4px black;
+	bottom: 5%;
+	position: absolute;
+	.nav{
+	margin: 0;
+	list-style-type:none; 
+	text-align: center;
+	padding:0;
+
+}
+.nav{
+	margin: 0;
+	list-style-type:none; 
+	text-align: center;
+	padding:0;
+}
+.nav li{
+	display:inline-block;
+}
+.nav a{
+	color: #90513b;
+	display: inline-block;
+	padding:0.75em 1em 0.75em 1em;
+	background-color: black;
+	border-radius: 3px;
+	text-decoration: none;
+	position: left;
+}
+.nav a:hover{
+	background-color: #183E4E;
+}
+img{
+	width: 100%;
+}
+
+h2{
+	color:#a69762;
+	font-family:'Antic';
+	font-size: 42px;
+	text-align: center;
+	color: white;
+	margin: 0;
+	position: relative;
 }
