@@ -1,0 +1,100 @@
+*, *::before, *::after{ 
+	box-sizing: inherit;
+}
+
+html{
+
+	font-family:normal 100%/'Antic', sans-serif;
+	background-size: 150px auto;
+	color:white;
+}
+body{
+	font-family:'Antic';
+	margin:0;
+	display: block;
+}
+header{
+	background-color: black;
+	font-size: 20px;
+	repeat:no no-repeat;
+	padding:1em 0;
+	margin: 0;
+}
+.masthead{
+	background-image:url("../images/logo.png")
+	background-size: 75px auto,75px auto,200px auto;
+	padding: 1em;
+	background-position: left top, right top, left top;
+	margin: 0;
+}
+
+h1{
+	margin: 0;
+	color:#a69762;
+	font-family:'Antic';
+	font-weight: bold;
+	font-size: 2.5em;
+	text-align: center;
+	bottom: 5%;
+	position: absolute;
+	.nav{
+	margin: 0;
+	list-style-type:none; 
+	text-align: center;
+	padding:0;
+
+}
+nav ol{
+	background-color: #183E4E;
+	overflow:hidden;
+	margin:0;
+	text-align:center;
+	font-size:1em;
+}
+.nav{
+	margin: 0;
+	list-style-type:none; 
+	text-align: center;
+	padding:0;
+}
+.nav li{
+	display:inline-block;
+	float:; left;
+	font-size: 25%;
+}
+.nav a{
+	color: #90513b;
+	display: inline-block;
+	padding:0.75em 1em 0.75em 1em;
+	background-color: black;
+	border-radius: 3px;
+	text-decoration: none;
+	position: left;
+}
+.nav a:hover{
+	background-color: #183E4E;
+}
+img{
+	width: 100%;
+}
+
+h2{
+	color:#a69762;
+	font-family:'Antic';
+	font-size: 42px;
+	text-align: left;
+	color: white;
+	margin: 0;
+	position: relative;
+}
+
+footer{
+	color: #a69762;
+	text-align: left;
+	padding: 1em 1em 0.5em 1em;
+	background-color: #38191e;
+	display: block;
+	font-size: 18px;
+	text-decoration: none;
+
+}
