@@ -74,8 +74,19 @@ h2{
 	color:#a69762;
 	font-family:'Antic';
 	font-size: 42px;
-	text-align: center;
+	text-align: left;
 	color: white;
 	margin: 0;
 	position: relative;
+}
+
+footer{
+	color: #a69762;
+	text-align: left;
+	padding: 1em 1em 0.5em 1em;
+	background-color: #38191e;
+	display: block;
+	font-size: 18px;
+	text-decoration: none;
+
 }
