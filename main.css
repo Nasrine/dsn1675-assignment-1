@@ -1,0 +1,22 @@
+*, *::before, *::after{ 
+	box-sizing: inherit;
+}
+
+html{
+
+	font-family:normal 100%/'Josefin Sans', sans-serif;
+	background-size: 150px auto;
+	color:white;
+}
+body{
+	font-family:'Josefin Sans', sans-serif;
+	margin:0;
+	display: block;
+}
+header{
+	background-color: #AE2525;
+	font-size: 20px;
+	repeat:no no-repeat;
+	padding:1em 0;
+	margin: 0;
+}
