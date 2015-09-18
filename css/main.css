@@ -99,3 +99,12 @@ footer{
 dl {
 	color: black;
 }
+
+dt {
+	float: left;
+	width: 33.3%;
+}
+dd {
+	float: left;
+	width: 33.3%;
+}
