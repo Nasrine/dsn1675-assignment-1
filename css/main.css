@@ -149,15 +149,15 @@ ol{
 }
 .week, #time{
 	background-color: #a69762;
-	padding: 0em;
-	margin: 0;
+	padding: 0;
+	margin: 0 auto;
 	overflow: hidden;
-	width: 50%;
-	float:left;
-
+	
 }
 .week1{
 	background-color: #a69762;
+	padding: 1rem;
+	margin: 0;
 }
 footer{
 	display: none;
@@ -251,19 +251,12 @@ footer{
 }	
 }
 @media only screen and (min-width: 64em) {
-
-
-header{
-
-
-}	
+	
 
 footer{
-	
 	top:7em ;
 	margin: 0;
 }	
-
 .wonders{
 	width: 50%;
 	float:left;
@@ -273,12 +266,11 @@ footer{
 	position: absolute;
 	left: 0;
 	margin: 0;
-	margin-top: 180em; 
+	margin-top: 170em; 
 }
 }
 @media print{
 	header{
 		display: none
 	}
-	
 }
