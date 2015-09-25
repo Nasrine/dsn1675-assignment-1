@@ -1,13 +1,22 @@
-*, *::before, *::after{ 
-	box-sizing: inherit;
-}
+
+@-moz-viewport { width:device-width; scale: 1}
+@-ms-viewport { width:device-width; scale: 1}
+@-o-viewport { width:device-width; scale: 1}
+@-webkit-viewport { width:device-width; scale: 1}
+@viewport { width:device-width; scale: 1}
 
 html{
-
 	font-family:normal 100%/'Antic', sans-serif;
 	background-size: 150px auto;
 	color:#38191e;
 }
+
+*, *::before, *::after{ 
+	box-sizing: inherit;
+}
+
+
+
 body{
 	font-family:'Antic';
 	margin:0;
@@ -61,17 +70,16 @@ h1{
 }
 nav ol{
 	display: inline-block;
-	
 	overflow:hidden;
-	margin:0;
+	margin: 0;
 	text-align:center;
 	font-size:1em;
 }
 .nav{
 	margin: 0;
-	list-style-type:none; 
+	list-style-type: none; 
 	text-align: center;
-	padding:0;
+	padding: 0;
 }
 .nav li{
 	display:block;
@@ -110,3 +118,28 @@ footer{
 	text-decoration: none;
 
 }
+@media only screen and (min-width: 31em){
+.banner{}
+.body{}
+.nav{}
+.nav li{}
+.about{}
+.logo{}
+.title{}
+}
+@media only screen and (min-width: 50em) {
+
+}
+.logo{}
+.banner{}
+.banner h2
+.banner p{}
+.masthead{}
+.main{
+.nav li{}
+h1{}
+footer{}
+
+	
+}
+
