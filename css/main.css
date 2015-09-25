@@ -55,6 +55,7 @@ header{
 	margin: 0;
 }
 .bannerh2{
+	color: white;
 	position: absolute;
 	text-align: center;
 	top: 200px;
@@ -74,7 +75,8 @@ h1{
 
 .nav{
 	margin: 0;
-	list-style-type:none; 
+	list-style-type:none;
+	text-align: center; 
 	padding:0;
 
 }
@@ -84,12 +86,7 @@ nav ol{
 	text-align:center;
 	font-size:1em;
 }
-.nav{
-	margin: 0;
-	list-style-type: none; 
-	text-align: center;
-	padding: 0;
-}
+
 .nav li{
 	display:inline-block;
 	float:; left;
@@ -103,23 +100,27 @@ nav ol{
 	border-radius: 3px;
 	text-decoration: none;
 }
-
+.nav a:hover{
+	background-color: #444;
+	color: green;
+}
 img{
 	width: 100%;
 }
 
 h2{
-	color: 
-	Black;
+	color: #a69762;
 	font-family:'Antic';
-	font-size: 42px;
+	font-size: 32px;
 	text-align: left;
 	margin: 0;
 	position: relative;
 }
-
+h3{
+	color: #a02323;
+}
 footer{
-	color:#38191e ;
+	color: #38191e;
 	text-align: left;
 	padding: 1em 1em 0.5em 1em;
 	background-color: #a69762;
@@ -128,9 +129,14 @@ footer{
 	text-decoration: none;
 
 }
-@media only screen and (min-width: 31em){
+@media only screen and (min-width: 38em){
+
 .banner{
 	float:right;
+}
+h1{
+	color: #8f1370;
+
 }
 .body{}
 .nav{
@@ -143,10 +149,12 @@ footer{
 .logo{}
 .title{}
 }
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 60em) {
 
-}
+Font-size: 1.1rem (17px)
+
 .nav{
+	text-align: center;
 	float: left;
 	width: 20%;
 }
@@ -162,11 +170,23 @@ footer{
 }
 .main{}
 
-h1{}
-footer{
-	display: none;
+h1{
+	color: #a02323;
+	text-decoration: underline;
+  }
 }
+.footer, .masthead{
+	display: none;
+	float: left; 
+	color: #38191e;
+	text-align: left;
+	padding: 1em 1em 0.5em 1em;
+	background-color: #a69762;
+	display: block;
+	font-size: 18px;
+	text-decoration: none;
 
+}
 	
 }
 
