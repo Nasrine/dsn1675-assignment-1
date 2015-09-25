@@ -6,6 +6,7 @@
 @viewport { width:device-width; scale: 1;}
 
 html{
+	box-sizing: border-box;
 	-moz-text-size-adjust:100%;
 	-ms-text-size-adjust:100%;
 	-webtext-text-size-adjust:100%;
@@ -28,9 +29,10 @@ body{
 header{
 	background-color: #a69762;
 	font-size: 20px;
-	repeat:no no-repeat;
+	overflow: hidden;
 	padding:1em 0;
 	margin: 0;
+
 }
 .masthead{
 	background-image:url("../images/logo.png");
@@ -50,6 +52,9 @@ header{
 	position: relative;
 	width: 100%;
 	margin: 0;
+}
+.titlewonder{
+	position: relative;
 }
 .bannerh2{
 	color: white;
@@ -99,6 +104,7 @@ nav ol{
 	text-decoration: none;
 	font-size: 16px;
 }
+
 .nav a:hover{
 	background-color: #444;
 	color: white;
@@ -119,6 +125,7 @@ h2{
 h3{
 	color: #a02323;
 }
+
 .footer{
 	color: #38191e;
 	text-align: left;
@@ -132,7 +139,22 @@ ol{
 	font-size: 12px;
 }
 
-@media only screen and (min-width: 38em){
+
+footer{
+	display: none;
+	float: left; 
+	width: 50%;
+	color: #38191e;
+	text-align: left;
+	padding: 1em 1em 0.5em 1em;
+	background-color: #a69762;
+	display: block;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+
+@media only screen and (min-width: 25em){
 
 .banner{
 	float:right;
@@ -157,10 +179,19 @@ h2{
 
 header{
 	background-color: #58520c;
-	position: absolute;
+
 	bottom: 0;
-	width: 100%;
+	width: 30%;
+	float: left;
+	display: block;
 }	
+
+main {
+float: right;
+width: 70%;
+}
+
+
 
 .nav{
 	text-align: center;
@@ -173,9 +204,37 @@ header{
 	float: left;
 	width: 20%;
 }
+footer{
+	position: absolute;
+	width:30%;
+	top:12em ;
+}
 }
 
-@media only screen and (min-width: 60em) {
+
+@media only screen and (min-width: 40em){
+
+
+header{
+	
+	
+}	
+
+main {
+
+}
+
+footer{
+
+}
+
+
+}
+
+
+
+
+@media only screen and (min-width: 51em) {
 
 h1{
 	color: #79a6c9;
@@ -187,12 +246,8 @@ title{
 
 }
 
-header{
-	background-color: #58520c;
-	position: absolute;
-	float: left;
-	width: 33.3%;
-}
+
+
 h2{
 	font-family:'Antic';
 	font-size: 1.75rem;
@@ -201,38 +256,11 @@ h2{
 	padding-bottom: 5rem;
 	
 }	
-.nav{
-	text-align: center;
-	float: left;
-	width: 20%;
-}
-.nav li{
-	display: block;
-}
-.logo{
-	float: left;
-	width: 20%;
-}
-
-.masthead{
-	display: none;
-	float: left;
-}
-
-footer, .masthead{
-	display: none;
-	float: left; 
-	width: 50%;
-	color: #38191e;
-	text-align: left;
-	padding: 1em 1em 0.5em 1em;
-	background-color: #a69762;
-	display: block;
-	font-size: 18px;
-	text-decoration: none;
-}
 ol{
 	font-size: 12px;
+}
+footer{
+	top:10em;
 }
 	
 }
