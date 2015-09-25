@@ -13,7 +13,8 @@ html{
 	text-size-adjust:100%;
 	font-family:normal 100%/'Antic', sans-serif;
 	background-size: 150px auto;
-	color:#38191e;
+	background-color: #b1b399;
+	color: #38191e;
 }
 
 *, *::before, *::after{ 
@@ -75,7 +76,9 @@ h1{
 	position: relative;
 	padding: 0;
 }
+p{
 
+}
 .nav{
 	margin: 0;
 	list-style-type:none;
@@ -141,7 +144,7 @@ ol{
 	font-size: 12px;
 }
 .ticket{
-	background-color: green;
+	background-color: #6d7d46;
 	padding: 1em 1em 0.5em 1em;
 	margin: 30px;
 	width:; 
@@ -157,7 +160,6 @@ ol{
 .week1{
 	background-color: #a69762;
 	padding: 1rem;
-	margin: 0;
 }
 footer{
 	display: none;
@@ -197,7 +199,7 @@ h2{
 	}
 
 header{
-	background-color: #58520c;
+	background-color: #6d7d46;
 	bottom: 0;
 	width: 30%;
 	float: left;
@@ -266,7 +268,7 @@ footer{
 	position: absolute;
 	left: 0;
 	margin: 0;
-	margin-top: 170em; 
+	margin-top: 160em; 
 }
 }
 @media print{
