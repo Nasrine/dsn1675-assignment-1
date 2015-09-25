@@ -125,7 +125,9 @@ h2{
 h3{
 	color: #a02323;
 }
-
+#playing{
+	clear: both;
+}
 .footer{
 	color: #38191e;
 	text-align: left;
@@ -138,8 +140,25 @@ h3{
 ol{
 	font-size: 12px;
 }
+.ticket{
+	background-color: green;
+	padding: 1em 1em 0.5em 1em;
+	margin: 30px;
+	width:; 
+	margin:;
+}
+.week, #time{
+	background-color: #a69762;
+	padding: 0em;
+	margin: 0;
+	overflow: hidden;
+	width: 50%;
+	float:left;
 
-
+}
+.week1{
+	background-color: #a69762;
+}
 footer{
 	display: none;
 	float: left; 
@@ -179,7 +198,6 @@ h2{
 
 header{
 	background-color: #58520c;
-
 	bottom: 0;
 	width: 30%;
 	float: left;
@@ -187,11 +205,9 @@ header{
 }	
 
 main {
-float: right;
-width: 70%;
+	float: right;
+	width: 70%;
 }
-
-
 
 .nav{
 	text-align: center;
@@ -211,42 +227,13 @@ footer{
 }
 }
 
-
-@media only screen and (min-width: 40em){
-
-
-header{
-	
-	
-}	
-
-main {
-
-}
-
-footer{
-
-}
-
-
-}
-
-
-
-
 @media only screen and (min-width: 51em) {
 
 h1{
 	color: #79a6c9;
 	text-decoration: underline;
 	font-size: 1.5rem;
-  }
-
-title{
-
 }
-
-
 
 h2{
 	font-family:'Antic';
@@ -261,7 +248,37 @@ ol{
 }
 footer{
 	top:10em;
+}	
 }
+@media only screen and (min-width: 64em) {
+
+
+header{
+
+
+}	
+
+footer{
+	
+	top:7em ;
+	margin: 0;
+}	
+
+.wonders{
+	width: 50%;
+	float:left;
+}
+.ticket{
+	width: 30%;
+	position: absolute;
+	left: 0;
+	margin: 0;
+	margin-top: 180em; 
+}
+}
+@media print{
+	header{
+		display: none
+	}
 	
 }
-
